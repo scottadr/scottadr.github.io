@@ -1,0 +1,44 @@
+<html>
+    <script src="./scripts/pacmen.js"></script>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PacMen</title>
+        <link rel="stylesheet" href="../styles/cover.css" />
+        <link
+          rel="canonical"
+          href="https://getbootstrap.com/docs/5.2/examples/cover/"
+        />
+    
+        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+      </head>
+      <body class="bg-dark text-white">
+        <div
+          class="container d-flex w-100 h-100 p-3 mx-auto flex-column text-center"
+        >
+          <header class="mb-auto">
+            <div class="container navbar text-dark"></div>
+          </header>
+          <div class="container display-6">
+            To play this game click on "Add PacMan". Add as many PacMen as you want, then click on "Start Game". 
+          </div>
+          <div id="game">
+            <button class="btn btn-light btn-lg" onclick="makeOne()">
+              Add PacMan
+            </button>
+            <button class="btn btn-light btn-lg" onclick="update()">
+              Start Game
+            </button>
+            <button class="btn btn-light btn-lg" onclick="reset()">
+              Reset Game
+            </button>
+          </div>
+          <footer class="mt-auto text-white-70">
+            <p>&copy; 2022 - Site by Luis Villa.</p>
+          </footer>
+        </div>
+    
+        <script src="../scripts/navbar.js"></script>
+      </body>
+</html>
